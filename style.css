@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* back content */
+
+div.backcontent {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865392.jpg?t=st=1730901761~exp=1730905361~hmac=3b5d28aca395becabffcc4251cfd3da54ba26cd47b46b18dbba544afa8d3d1db&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+
+/* the actual content you see*/
+
+div.forecontent {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    background: rgba(204, 0, 255, 0.2);
+    padding: 10px 20px;
+}
+
+div.content {
+    opacity: 100%;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+/* navbar */
+.navbar {
+    opacity: 1;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex, block;
+    width: 60%;
+    right: 20%;
+    left: 20%;
+}
+  
+ul.navbar li {
+   float: left;   
+}
+  
+ul.navbar li a, li.author {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.author {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+ul.navbar li a:hover {
+    background-color: #464646;
+}
+
+ul.navbar li a:current {
+    background-color: rgba(204, 0, 255, 0.2);
+}
+
+/* intro */
+
+.intro h1 {
+    font-size: 75px;
+    border: whitesmoke, solid, 5px;
+    padding: 5px 10px;
+    margin: 20px auto;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.intro p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.publishtime {
+    font-size: small;
+    opacity: 0.8;
+    margin: 3px auto;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 20px 0 0 10px;
+}
+
+img {
+    margin: 0;
+    width: 150px;
+    height: auto;
+    display: inline-block;
+    border: 5px, #333, solid;
+    border-radius: 20px;
+}
+
+p {
+    line-height: 20px;
+    margin-top: 6px;
+}
+
+strong {
+    font-size: larger;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.smul li {
+    list-style-type: none;
+    margin: 175px 70px;
+    display: inline-block;
+}
+
+.smul li a {
+    border: #333, 5px, solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 70px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.smul li.tiktok a:hover {
+    background-image: url('img-misc/tiktok.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.smul li.insta a:hover {
+    background-image: url('img-misc/insta.jpg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+.smul li.discord a:hover {
+    background-image: url('img-misc/discord.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+
+div.golf {
+    background-image: url('https://villagrouploreto.s3.amazonaws.com/uploads/article/cover_en/391/what-golf-clubs-to-use-for-each-shot.jpg');
+    background-size: cover;
+    background-position: 50% 70%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+}
+
+div.code {
+    background-image: url('https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=1200,800');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+}
+
+div.draw {
+    background-image: url('https://i.pinimg.com/736x/40/85/2b/40852bbc90a28f49ef59edd7dd8dc1b6.jpg');
+    background-size: cover;
+    background-position: 50% 45% ;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+}
+
+div.game {
+    background-image: url('https://media.wired.com/photos/61f48f02d0e55ccbebd52d15/master/w_1920,c_limit/Gear-Rant-Game-Family-Plans-1334436001.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+}
+
+#hobbies h3 {
+    font-size: 80px
+}
