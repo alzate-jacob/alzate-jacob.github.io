@@ -14,7 +14,7 @@ div.backcontent {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148865392.jpg?t=st=1730901761~exp=1730905361~hmac=3b5d28aca395becabffcc4251cfd3da54ba26cd47b46b18dbba544afa8d3d1db&w=1380");
+    background-image: url('https://atd-bloges.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/05/16150421/6-cute-cool-wallpapers-1024x576.webp');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
@@ -26,7 +26,7 @@ div.forecontent {
     width: 60%;
     height: 100%;
     margin: 0 auto;
-    background: rgba(204, 0, 255, 0.2);
+    background: rgba(29, 29, 29, 0.4);
     padding: 10px 20px;
 }
 
@@ -116,6 +116,8 @@ img {
     display: inline-block;
     border: 5px, #333, solid;
     border-radius: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 p {
@@ -176,7 +178,6 @@ div.golf {
     background-image: url('https://villagrouploreto.s3.amazonaws.com/uploads/article/cover_en/391/what-golf-clubs-to-use-for-each-shot.jpg');
     background-size: cover;
     background-position: 50% 70%;
-    background-color: rgba(255, 255, 255, 0.8);
     color: whitesmoke;
     width: 100%;
     height: 100px;
@@ -186,7 +187,6 @@ div.code {
     background-image: url('https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?resize=1200,800');
     background-size: cover;
     background-position: 50% 50%;
-    background-color: rgba(255, 255, 255, 0.8);
     color: whitesmoke;
     width: 100%;
     height: 100px;
@@ -196,7 +196,6 @@ div.draw {
     background-image: url('https://i.pinimg.com/736x/40/85/2b/40852bbc90a28f49ef59edd7dd8dc1b6.jpg');
     background-size: cover;
     background-position: 50% 45% ;
-    background-color: rgba(255, 255, 255, 0.8);
     color: whitesmoke;
     width: 100%;
     height: 100px;
@@ -206,7 +205,15 @@ div.game {
     background-image: url('https://media.wired.com/photos/61f48f02d0e55ccbebd52d15/master/w_1920,c_limit/Gear-Rant-Game-Family-Plans-1334436001.jpg');
     background-size: cover;
     background-position: 50% 65%;
-    background-color: rgba(255, 255, 255, 0.8);
+    color: whitesmoke;
+    width: 100%;
+    height: 100px;
+}
+
+div.anime {
+    background-image: url('https://preview.redd.it/ewcozcahkwk61.png?width=1080&crop=smart&auto=webp&s=56ed427b91cc72218349fc6b9b349cbf4555dc92');
+    background-size: cover;
+    background-position: 50% 55%;
     color: whitesmoke;
     width: 100%;
     height: 100px;
