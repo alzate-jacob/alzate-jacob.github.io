@@ -154,21 +154,21 @@ h3 {
 }
 
 .smul li.tiktok a:hover {
-    background-image: url('img-misc/tiktok.png');
+    background-image: url('tiktok.png');
     background-size: cover;
     background-position: center;
     color: transparent;
 }
 
 .smul li.insta a:hover {
-    background-image: url('img-misc/insta.jpg');
+    background-image: url('insta.jpg');
     background-size: cover;
     background-position: center;
     color: transparent;
 }
 
 .smul li.discord a:hover {
-    background-image: url('img-misc/discord.png');
+    background-image: url('discord.png');
     background-size: cover;
     background-position: center;
     color: transparent;
