@@ -162,7 +162,7 @@ h3 {
 }
 
 .smul li.insta a {
-    background-image: url('img-misc/insta.jpg');
+    background-image: url('insta.jpg');
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -170,7 +170,7 @@ h3 {
 }
 
 .smul li.discord a {
-    background-image: url('img-misc/discord.png');
+    background-image: url('discord.png');
     background-size: cover;
     background-position: center;
     color: transparent;
