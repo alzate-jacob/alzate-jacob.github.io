@@ -140,7 +140,7 @@ h3 {
 
 .smul li {
     list-style-type: none;
-    margin: 175px 70px;
+    margin: 175px auto;
     display: inline-block;
 }
 
@@ -153,25 +153,44 @@ h3 {
     font-size: x-large;
 }
 
-.smul li.tiktok a:hover {
-    background-image: url('tiktok.png');
+.smul li.tiktok a {
+    background-image: url('https://p16-va-tiktok.ibyteimg.com/obj/musically-maliva-obj/bbe157f7357c8107334af2b8b7455e07.png');
     background-size: cover;
     background-position: center;
     color: transparent;
+    padding: 70px 80px;
 }
 
-.smul li.insta a:hover {
-    background-image: url('insta.jpg');
+.smul li.insta a {
+    background-image: url('img-misc/insta.jpg');
     background-size: cover;
     background-position: center;
     color: transparent;
+    padding: 70px 80px;
 }
 
-.smul li.discord a:hover {
-    background-image: url('discord.png');
+.smul li.discord a {
+    background-image: url('img-misc/discord.png');
     background-size: cover;
     background-position: center;
     color: transparent;
+    padding: 70px 80px;
+}
+
+.smul li.x a {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/X_logo.jpg/600px-X_logo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    padding: 70px 80px;
+}
+
+.smul li.github a {
+    background-image: url('https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    padding: 70px 80px;
 }
 
 div.golf {
